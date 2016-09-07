@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+html { 
+  background: url("ripples_optimized_386kb") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div.jumbotron {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 60px 50px;
+    margin-bottom: 5px;
+    border: 10px solid white;
+}
+
+.container-fluid {
+    padding: 60px 60px;
+    text-align: center;
+}
+
+.glyphicon {
+    font-size: 180px;
+    text-align: center;
+    margin: 0px 0px;
+}
+
+#menuBox {
+    text-align: center;
+    padding: 0px 0px;
+    margin-bottom: 60px;
+}
+
+.menu{
+    padding: 0px 0px;
+}
+
+.menu li {
+    display: inline;
+    color: black;
+    padding: 0px 20px;
+}
+
+.menu a {
+    color:black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+#menuFooter {
+    text-align: center;
+    margin-top: 60px;
+}
+
