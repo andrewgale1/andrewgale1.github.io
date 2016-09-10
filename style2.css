@@ -42,7 +42,7 @@ h2 {
 .menu li {
     display: inline;
     color: black;
-    padding: 0px 20px;
+    padding: 0px 15px;
 }
 
 .menu a {
@@ -83,7 +83,11 @@ a:active {
     text-decoration: none;
 }
 
-li {
+ul.long_list {
     text-align: left;
     margin-left: 40px;
+}
+
+div.col-sm-6 {
+    margin-bottom: 20px;
 }
