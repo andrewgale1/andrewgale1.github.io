@@ -19,7 +19,7 @@ h2 {
 }
 
 .container-fluid {
-    padding: 60px 60px;
+    padding: 30px 60px;
     text-align: center;
 }
 
@@ -27,6 +27,7 @@ h2 {
     font-size: 180px;
     text-align: center;
     margin: 0px 0px;
+    color: black;
 }
 
 #menuBox {
