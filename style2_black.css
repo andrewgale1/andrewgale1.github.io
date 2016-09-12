@@ -89,6 +89,14 @@ ul.long_list {
     margin-left: 40px;
 }
 
-div.col-sm-6 {
+#About div.col-sm-5 {
+    margin-bottom: 20px;
+}
+
+#Portfolio {
+    margin-bottom: 20px;
+}
+
+#About {
     margin-bottom: 20px;
 }
