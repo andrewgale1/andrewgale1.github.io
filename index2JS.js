@@ -1,3 +1,5 @@
+/*
+
 $(document).ready(function() {
 
 $(".glyphicon").fadeOut(2000,function(){
@@ -17,7 +19,7 @@ $(".glyphicon").fadeOut(2000,function(){
       
 });
 
-
+*/
 
 
 
