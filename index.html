@@ -18,21 +18,23 @@
   </head>
 <body>
 
-<div class="jumbotron" id="top"> 
+<div class="jumbotron"> 
     <h1>Andrew Gale</h1>
     <br><p>Software &amp Web Developer</p>
 </div>
 
-<div class="container" id="menuBox">
-  <div class="row">  
+  <!--div class="container" id="menuBox"-->
+  <!--div class="row"-->
+<nav class="navbar navbar-fixed-bottom">
+  <div class="container-fluid">  
     <ul class="menu">
-        <li><a href="#top">About</a></li>
+        <li><a href="#About">About</a></li>
         <li><a href="#Skills">Skills</a></li>
         <li><a href="#Portfolio">Portfolio</a></li>
         <li><a href="#Contact">Contact</a></li>
     </ul>
   </div>
-</div>
+</nav>
 
 <div class="container-fluid">
     <div class="row">
@@ -40,13 +42,14 @@
         <div class="col-sm-1">
         </div>
         <div class="col-sm-5" id="About">
-            <h2>About Me</h2>
-            <p>Currently completing a web and software development boot camp at The Tech Academy in Portland, Oregon...
-                expanding on past experience obtained as a research assistant at the Scripps Institution of Oceanography,
+           <span class="glyphicon glyphicon-eye-open"></span></span><h2>About Me</h2>
+            <p width= "60px">Currently completing a web and software development boot camp at The Tech Academy in Portland, Oregon...
+                expanding on past experience obtained as a research associate at the Scripps Institution of Oceanography,
                 and a lifelong passion for computers and technology...</p>
         </div>
-        <div class="col-sm-5">
-            <span class="glyphicon glyphicon-eye-open"></span>
+        <div class="col-sm-5 image">
+            <!--span class="glyphicon glyphicon-eye-open"></span-->
+            <img src="hermosa_bw.jpg" class="img-responsive img-rounded" alt="wave">
         </div>
         <div class="col-sm-1">
         </div>
@@ -58,10 +61,11 @@
         <div class="col-sm-1">
         </div>
         <div class="col-sm-5">
-             <span class="glyphicon glyphicon-fire"></span>
+             <!--span class="glyphicon glyphicon-fire"></span-->
+             <img src="ripples_optimized.jpg" class="img-responsive img-rounded" alt="ripples">
         </div>
         <div class="col-sm-5" id="Skills">
-            <h2>Skills</h2>
+            <span class="glyphicon glyphicon-fire"></span><h2>Skills</h2>
             <ul class="long_list">
                 <li><h4>Operating Systems</h4></li>
                     <ul>
@@ -98,11 +102,12 @@
         <div class="col-sm-1">
         </div>
         <div class="col-sm-5" id="Portfolio">
-            <h2>Portfolio</h2>
+            <span class="glyphicon glyphicon-folder-open"></span><h2>Portfolio</h2>
             <a href="https://github.com/andrewgale1" target=_blank>GitHub</a>
         </div>
         <div class="col-sm-5">
-            <span class="glyphicon glyphicon-folder-open"></span>
+            <!--span class="glyphicon glyphicon-folder-open"></span-->
+            <img src="IMG_90.jpg" class="img-responsive img-rounded" alt="sunset">
         </div>
         <div class="col-sm-1">
         </div>
@@ -114,10 +119,11 @@
         <div class="col-sm-1">
         </div>
         <div class="col-sm-5">
-             <span class="glyphicon glyphicon-check"></span>
+             <!--span class="glyphicon glyphicon-check"></span-->
+             <img src="5603.jpg" class="img-responsive img-rounded" alt="sunset">
         </div>
         <div class="col-sm-5" id="Contact">
-            <h2>Contact</h2>
+            <span class="glyphicon glyphicon-check"></span><h2>Contact</h2>
                 <p>gale.andrew1@gmail.com</p><br>
                 <p><a href="https://www.linkedin.com/in/andrewgale123" target=_blank>Linkedin</a></p>
         </div>
@@ -129,7 +135,7 @@
 <div class="container-fluid" id="menuFooter">
   <div class="row">  
     <ul class="menu">
-        <li><a href="#top">About</a></li>
+        <li><a href="#About">About</a></li>
         <li><a href="#Skills">Skills</a></li>
         <li><a href="#Portfolio">Portfolio</a></li>
         <li><a href="#Contact">Contact</a></li>
