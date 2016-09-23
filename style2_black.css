@@ -6,20 +6,45 @@ div.jumbotron {
     background-color: black;
     color: white;
     padding: 40px 50px;
-    margin-bottom: 10px;
+    margin: 0px;
+    font-family: 'Comorant SC', serif;
+}
+
+#top {
+    background: linear-gradient(white, black);
+    padding: 10px;
+}
+
+.jumbotron h4 {
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 2px;
+}
+
+.col-sm-12 {
+    padding: 40px;
+    background: linear-gradient(black, white)
 }
 
 h1 {
     font-variant: small-caps;
+    font-family: 'Comorant SC', serif;
+    letter-spacing: 6px;
+    padding-bottom: 20px;
 }
 
-h2 {
-    padding: 0px 20px 40px 20px;
+h3 {
+    padding: 0px 20px 30px 20px;
 }
 
 .container-fluid {
-    padding: 30px 60px;
     text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.imgborder {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .glyphicon {
@@ -29,19 +54,13 @@ h2 {
     color: black;
 }
 
-#menuBox {
-    text-align: center;
-    padding: 0px 0px;
-    margin-bottom: 10px;
-}
-
-.menu{
+.menu {
     padding: 0px 0px;
 }
 
 .menu li {
     display: inline;
-    padding: 0px 20px;
+    padding: 0px 25px;
 }
 
 .menu a {
@@ -53,11 +72,6 @@ h2 {
 .menu a:hover {
     color: gray;
     text-decoration: none;
-}
-
-#menuFooter {
-    text-align: center;
-    margin-top: 60px;
 }
 
 a {
@@ -88,6 +102,7 @@ ul.long_list {
 
 .col-sm-5 {
     margin-bottom: 20px;
+    font-family: 'Muli', sans-serif;
 }
 
 #Portfolio {
@@ -98,8 +113,6 @@ ul.long_list {
     background-color: black;
     max-height: 20px;
 }
-
-
 
 
 /*these are used to make image size responsive, and are both combined into the img-responsive class in Bootstrap
