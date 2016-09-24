@@ -65,13 +65,13 @@ h3 {
 .menu li {
     display: inline;
     padding: 0px 25px;
-    margin: 5px 0px 0px;
 }
 
 .menu a {
     color:white;
     text-decoration: none;
     font-size: 14px;
+    margin: 10px 0px;
 }
 
 .menu a:hover {
@@ -79,25 +79,18 @@ h3 {
     text-decoration: none;
 }
 
-a {
+.col-sm-5 a {
     color: black;
     text-decoration: none;
 }
 
-a:link {
+.col-sm-5 a:link, a:visited, a:active, {
     text-decoration: none;
 }
 
-a:visited {
+.col-sm-5 a:hover {
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
+    color: gray;
 }
 
 ul.long_list {
@@ -118,7 +111,7 @@ ul.long_list {
     background-color: black;
     max-height: 20px;
     font-family: 'Muli', sans-serif;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
 }
 
 /*these are used to make image size responsive, and are both combined into the img-responsive class in Bootstrap
