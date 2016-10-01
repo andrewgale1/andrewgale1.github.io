@@ -88,7 +88,7 @@ h3 {
 
 ul.long_list {
     text-align: left;
-    margin-left: 40px;
+    margin: 0px 0px 0px 50px
 }
 
 .col-sm-5 {
@@ -117,7 +117,7 @@ ul.long_list {
 }
 
 
-
+/*
 #fade {
   position:relative;
   margin:0 auto;
